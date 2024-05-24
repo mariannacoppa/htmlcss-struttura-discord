@@ -67,5 +67,29 @@ ul {
     margin: 50px auto;
 }
 .container-60-40 {
+    margin: 0 auto;
+    max-width: 1500px;
+    height: 450px;
+    background-color: yellowgreen;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+}
+.col-60, .col-40 {
+    height: 350px;
+    border: 2px dashed black;
     
+}
+.col-60 {
+    width: calc(900px - 40%);
+    background-color: rgb(118, 118, 234);
+}
+.col-40 {
+    width: calc(900px - 60%);
+    background-color: pink;
+}
+.container-40-60 {
+    background-color: lightgray;
 }
