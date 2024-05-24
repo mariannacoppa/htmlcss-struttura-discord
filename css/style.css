@@ -48,3 +48,24 @@ ul {
     flex-direction: row;
     text-align: center;
 }
+.container.sm {
+    height: 400px;
+    max-width: 1500px;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 135);
+}
+.row-sm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.col-small {
+    width: 650px;
+    background-color: rgb(243, 100, 243);
+    border: 2px dashed black;
+    height: 300px;
+    margin: 50px auto;
+}
+.container-60-40 {
+    
+}
