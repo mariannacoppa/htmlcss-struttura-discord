@@ -3,3 +3,48 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container.h {
+    margin: 0 auto;
+    max-width: 1500px;
+    height: 50px;
+}
+.h {
+    background-color: lightblue; 
+}
+.row.h {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+.content-l, .content-m, .content-r {
+    padding: 0px 10px;
+}
+.left, .medium, .right {
+    height: 30px;
+    margin: 10px 0px 10px 0px;
+    background-color: orange;
+    border: 2px dashed black;
+    line-height: 30px;
+}
+.left, .right {
+    width: 200px;
+}
+.medium {
+    width: 500px;
+}
+.content-r {
+    text-align: right;
+}
+ul li {
+    display: inline-block;
+}
+ul {
+    list-style: none;
+    flex-direction: row;
+    text-align: center;
+}
