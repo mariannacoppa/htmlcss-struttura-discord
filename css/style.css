@@ -103,4 +103,53 @@ li {
     background-color: green;
     border: 2px dashed black;
 }
-/*layout a 5 colonne*/
+/*layout a 5 colonne e footer*/
+.container.black{
+    height: 400px;
+}
+.black {
+    background-color: black;
+}
+.col-large {
+    width: 34%;
+    background-color: salmon;
+    border: 2px dashed black;
+}
+.col-sm {
+    width: calc(33% / 2);
+    background-color: rgb(2, 151, 131);
+    border: 2px dashed white;
+}
+.row.five div {
+    padding: 170px 0;
+    margin-bottom: 30px;
+    flex-direction: row;
+    align-self: center;
+}
+main {
+    border-bottom: 4px solid lightgray;
+}
+footer {
+    border-bottom: 2px solid lightgray;
+}
+.container.f {
+    height: 80px;
+    display: flex;
+    align-items: flex-end;
+}
+.row.f {
+    height: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aquamarine;
+    justify-content: space-between;
+}
+[class^="col-f"] {
+    align-self: center;
+    height: 50%;
+    background-color: lightgray;
+    border: 2px dashed black;
+}
+[class^="content-f"] {
+    padding: 5px 10px;
+}
