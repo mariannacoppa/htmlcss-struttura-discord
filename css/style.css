@@ -93,3 +93,14 @@ li {
     flex-direction: row-reverse;
 }
 /*layout singolo grande*/
+.row.big {
+    width: 100%;
+}
+.col-big {
+    width: 60%;
+    height: 600px;
+    margin: 50px auto;
+    background-color: green;
+    border: 2px dashed black;
+}
+/*layout a 5 colonne*/
