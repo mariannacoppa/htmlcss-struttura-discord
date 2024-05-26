@@ -21,85 +21,40 @@ body {
     height: 100%;
     margin: auto;
 }
-.h {
-    background-color: lightblue; 
+/*intestazione*/
+header {
+    border-bottom: 4px solid lightblue;
 }
-.row.h {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 1000px;
-    margin: 0 auto;
+.container.h {
+    height: 60px;
+    background-color: lightblue;
 }
-.content-l, .content-m, .content-r {
-    padding: 0px 10px;
+.col.h.left, .col.h.right {
+    width: 20%;
 }
-.left, .medium, .right {
-    height: 30px;
-    margin: 10px 0px 10px 0px;
-    background-color: orange;
-    border: 2px dashed black;
-    line-height: 30px;
+.col.h.medium {
+    width: 60%;
+    text-align: center;
 }
-.left, .right {
-    width: 200px;
-}
-.medium {
-    width: 500px;
-}
-.content-r {
+.col.h.right {
     text-align: right;
 }
-ul li {
-    display: inline-block;
+.col.h {
+    height: 40px;
+    background-color: rgb(250, 186, 69);
+    border: 2px dashed black;
+    align-self: center;
 }
-ul {
+li {
     list-style: none;
+    display: inline-block;
     flex-direction: row;
     text-align: center;
 }
-.container.sm {
-    height: 400px;
-    max-width: 1500px;
-    margin: 0 auto;
-    background-color: rgb(0, 0, 135);
+.content.h {
+    line-height: 38px;
 }
-.row-sm {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.content.h.left, .content.h.right {
+    padding: 0px 10px;
 }
-.col-small {
-    width: 650px;
-    background-color: rgb(243, 100, 243);
-    border: 2px dashed black;
-    height: 300px;
-    margin: 50px auto;
-}
-.container-60-40 {
-    margin: 0 auto;
-    max-width: 1500px;
-    height: 450px;
-    background-color: yellowgreen;
-}
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    width: 900px;
-}
-.col-60, .col-40 {
-    height: 350px;
-    border: 2px dashed black;
-    
-}
-.col-60 {
-    width: calc(900px - 40%);
-    background-color: rgb(118, 118, 234);
-}
-.col-40 {
-    width: calc(900px - 60%);
-    background-color: pink;
-}
-.container-40-60 {
-    background-color: lightgray;
-}
+/*layout singolo piccolo*/
