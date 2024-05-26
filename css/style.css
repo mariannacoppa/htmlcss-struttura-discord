@@ -68,4 +68,28 @@ li {
     background-color: violet;
     border: 2px dashed black;
 }
+/*layout a 2 colonne*/
+.container.two, .container.three {
+    height: 400px;
+}
+.container.three, .container.big {
+    background-color: rgb(209, 208, 208);
+}
+.col-60, .col-40 {
+    padding: 150px 0;
+    flex-direction: row;
+    align-self: center;
+    border: 2px dashed black;
+}
+.col-60 {
+    width: 60%;
+    background-color: rgb(74, 133, 242);
+}
+.col-40 {
+    width: 40%;
+    background-color: pink;
+}
+#reverse {
+    flex-direction: row-reverse;
+}
 /*layout singolo grande*/
