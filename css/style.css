@@ -58,3 +58,14 @@ li {
     padding: 0px 10px;
 }
 /*layout singolo piccolo*/
+.container.sm {
+    background-color: rgb(1, 1, 155);
+}
+.col.sm {
+    width: 45%;
+    height: 200px;
+    margin: 50px auto;
+    background-color: violet;
+    border: 2px dashed black;
+}
+/*layout singolo grande*/
