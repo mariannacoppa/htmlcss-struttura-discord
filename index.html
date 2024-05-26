@@ -11,13 +11,13 @@
     <header>
         <div class="container h">
             <div class="row h">
-                <div class="col left">
-                    <div class="content-l">
+                <div class="col h left">
+                    <div class="content h left">
                         <div>logo</div>
                     </div>
                 </div>
-                <div class="col medium">
-                    <ul class="content-m">
+                <div class="col h medium">
+                    <ul class="content h m">
                         <li>link</li>
                         <li>link</li>
                         <li>link</li>
@@ -25,52 +25,52 @@
                         <li>link</li>
                     </ul>
                 </div>
-                <div class="col right">
-                    <div class="content-r">
+                <div class="col h right">
+                    <div class="content h right">
                         <div>login</div>
                     </div>
                 </div>
             </div>
         </div>
+    <!-- layout singolo piccolo -->
+        <div class="container sm">
+            <div class="row sm">
+                <div class="col sm"></div>
+            </div>
+        </div>
     </header>
     <main>
-        <!-- layout singolo piccolo -->
-        <div class="container sm">
-            <div class="row-sm">
-                <div class="col-small"></div>
-            </div>
-        </div>
-        <!-- layout a 2 colonne -->
-        <div class="container-60-40">
-            <div class="row">
+         <!-- primo layout a 2 colonne -->
+        <div class="container two">
+            <div class="row two">
                 <div class="col-60"></div>
                 <div class="col-40"></div>
             </div>
         </div>
-        <!-- layout a 2 colonne invertite -->
-        <div class="container-40-60">
-            <div class="row">
-                <div class="col-40"></div>
+        <!-- secondo layout a 2 colonne -->
+        <div class="container three">
+            <div class="row two" id="reverse">
                 <div class="col-60"></div>
+                <div class="col-40"></div>
             </div>
         </div>
-        <!-- layout a 2 colonne -->
-        <div class="container-60-40">
-            <div class="row">
+        <!-- terzo layout a 2 colonne -->
+        <div class="container two">
+            <div class="row two">
                 <div class="col-60"></div>
                 <div class="col-40"></div>
             </div>
         </div>
         <!-- layout singolo grande -->
         <div class="container big">
-            <div class="row">
+            <div class="row big">
                 <div class="col-big"></div>
             </div>
         </div>
         <!-- layout a 5 colonne -->
         <div class="container black">
-            <div class="row">
-                <div class="col large"></div>
+            <div class="row five">
+                <div class="col-large"></div>
                 <div class="col-sm"></div>
                 <div class="col-sm"></div>
                 <div class="col-sm"></div>
@@ -80,10 +80,18 @@
     </main>
     <footer>
         <!-- barra fondo pagina -->
-        <div class="container f">
+        <div class="container f black">
             <div class="row f">
-                <div class="col-logo">Logo</div>
-                <div class="col-bottone">Bottone</div>
+                <div class="col-f-l">
+                    <div class="content-f-l">
+                        <div>Logo</div>
+                    </div>
+                </div>
+                <div class="col-f-r">
+                    <div class="content-f-r">
+                        <div>Bottone</div>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
